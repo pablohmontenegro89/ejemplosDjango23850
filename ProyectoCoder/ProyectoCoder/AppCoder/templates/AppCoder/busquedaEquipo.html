@@ -14,15 +14,11 @@
 
     <h1>Titulo del buscando equipo:</h1>
 
-    <form action="/AppCoder/buscar/" method="GET">{% csrf_token %}
-        <!-- 
-        <p>Direccion: <input type="text" name="direccion"></p>
-        <p>Año: <input type="number" name="anioFund"></p>
-        <input type="submit" value="ENVIOOOO!!!!" name="" id="">
-        -->
+    <form action="/AppCoder/buscar/" method="GET">
+
         <input type="text" name="nombre" id="nombre">
 
-        <input type="submit" value="BUSCAR" name="" id="">
+        <input type="submit" value="BUSCAR">
     </form>
 
 {% endblock %}
